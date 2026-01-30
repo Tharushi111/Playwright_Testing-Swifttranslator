@@ -33,7 +33,7 @@ npx playwright install
 
 ```
 
-4. 🧪 Running Tests
+4. Running Tests
 
 Run all tests (headless):
 ```bash
@@ -74,17 +74,8 @@ playwright-report/index.html
 npx playwright show-report --port=9323
 Then open in your browser: http://localhost:9323
 
- Project Structure
-.
-├── tests/
-│   ├── positive-functional.spec.js
-│   ├── negative-functional.spec.js
-│   └── ui-tests.spec.js
-├── package.json
-├── package-lock.json
-└── playwright.config.js
 
- Assignment Information
+## Assignment Information
 
 Course: IT3040 - ITPM
 
