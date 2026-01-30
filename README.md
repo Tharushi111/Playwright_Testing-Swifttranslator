@@ -2,97 +2,79 @@
 
 Automated **Playwright tests** for [SwiftTranslator](https://www.swifttranslator.com/) website, covering **positive functional, negative functional, and UI tests** for Singlish to Sinhala translation.
 
-Tests run **headless by default** with an HTML report to view results locally.
+Tests run **headless by default**, with an HTML report to view results locally.
 
 ---
 
-## Prerequisites
+##  Prerequisites
 
 - [Node.js](https://nodejs.org/en/) v18 or higher  
 - npm (comes with Node.js)
 
 ---
 
-## Installation
+##  Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/swifttranslator-tests.git
+git clone https://github.com/Tharushi111/swifttranslator-tests.git
 cd swifttranslator-tests
-
 ```
-
 2. Install dependencies:
 
 ```bash
 npm install
 ```
-
 3. Install Playwright browsers:
 
 ```bash
 npx playwright install
+
 ```
 
-4. Running Tests
+4. 🧪 Running Tests
 
- - Run all tests (headless): 
-
- ```bash
+Run all tests (headless):
+```bash
 npm run test
 ```
+Run specific test suites
 
-- Run specific test suites:
-
- Positive functional tests:
-
- ```bash
-
+Positive functional tests:
+```bash
 npm run test:positive
 ```
 Negative functional tests:
 
- ```bash
+```bash
 npm run test:negative
-
 ```
-
 UI tests:
 
 ```bash
 npm run test:ui
-
 ```
-
 Run tests in headed mode (see browser while testing):
-
 ```bash
 npx playwright test --headed
 ```
-
-5. Viewing HTML Report
+Viewing HTML Report
 
 After running tests:
-
 ```bash
 npm run report
 ```
+This opens a local HTML report showing pass/fail results. By default, the report is saved at:
 
-Opens a local HTML report showing pass/fail results. By default, the report is saved at:
 
-```bash
 playwright-report/index.html
-```
-```bash
+
+
 npx playwright show-report --port=9323
-```
+Then open in your browser: http://localhost:9323
 
-
-Then open http://localhost:9323
- in your browser.
-
-## Project Structure
+ Project Structure
 .
 ├── tests/
 │   ├── positive-functional.spec.js
@@ -100,12 +82,13 @@ Then open http://localhost:9323
 │   └── ui-tests.spec.js
 ├── package.json
 ├── package-lock.json
-└── playwright.config.js 
+└── playwright.config.js
 
-## Assignment Information
+ Assignment Information
 
-- Course: IT3040 - ITPM
+Course: IT3040 - ITPM
 
-- Author: Assignment submission for IT3040 ITPM Course
+Author: Assignment submission for IT3040 ITPM Course
 
-- Assignment: Assignment 1
+Assignment: Assignment 1
+
