@@ -71,8 +71,9 @@ This opens a local HTML report showing pass/fail results. By default, the report
 playwright-report/index.html
 
 
-npx playwright show-report --port=9323
-Then open in your browser: http://localhost:9323
+- npx playwright show-report --port=9323
+
+**Then open in your browser: http://localhost:9323**
 
 
 ## Assignment Information
