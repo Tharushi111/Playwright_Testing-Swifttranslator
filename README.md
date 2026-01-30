@@ -1,6 +1,6 @@
 # SwiftTranslator Playwright Tests
 
-Automated **Playwright tests** for [SwiftTranslator](https://www.swifttranslator.com/) website, covering **positive functional, negative functional, and UI tests** for Singlish to Sinhala translation.
+This project implements a comprehensive automated testing framework for the [SwiftTranslator](https://www.swifttranslator.com/) website using Microsoft Playwright. The test suite validates Singlish to Sinhala translation functionality through systematic functional and UI testing methodologies.
 
 Tests run **headless by default**, with an HTML report to view results locally.
 
