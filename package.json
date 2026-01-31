@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Playwright tests for Singlish to Sinhala translator",
   "scripts": {
-    "test": "playwright test && playwright show-report",
-    "test:positive": "playwright test tests/positive.spec.js",
-    "test:negative": "playwright test tests/negative.spec.js",
-    "test:ui": "playwright test --ui",
+    "test": "playwright test --reporter=html && playwright show-report",
+    "test:positive": "playwright test tests/positive.spec.js --reporter=html",
+    "test:negative": "playwright test tests/negative.spec.js --reporter=html",
+    "test:ui": "playwright test tests/ui-tests.spec.js --reporter=html",
+    "test:all": "playwright test --reporter=html",
     "report": "playwright show-report",
+    "open-report": "playwright show-report",
     "install-browsers": "npx playwright install"
   },
   "devDependencies": {
