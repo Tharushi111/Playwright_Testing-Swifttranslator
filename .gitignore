@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# Playwright report (auto-generated HTML)
+playwright-report/
+
+# Optional: system files
+.DS_Store
+Thumbs.db
