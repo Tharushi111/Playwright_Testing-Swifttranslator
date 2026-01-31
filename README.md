@@ -9,7 +9,7 @@ This project fulfills the requirements for IT3040 - ITPM Assignment 1 (Year 3, S
 ## Requirements Met:
  - 25 Positive Functional Test Cases
 
- - 11 Negative Functional Test Cases (10 negative functional + 1 negative UI)
+ - 10 Negative Functional Test Cases
 
  - 1 Positive UI Test Case
 
