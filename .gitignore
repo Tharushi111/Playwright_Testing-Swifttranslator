@@ -3,6 +3,7 @@ node_modules/
 
 # Playwright report (auto-generated HTML)
 playwright-report/
+test-results/
 
 # Optional: system files
 .DS_Store
