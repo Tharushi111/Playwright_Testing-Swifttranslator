@@ -196,7 +196,7 @@ These test cases verify that the system handles invalid or edge-case inputs appr
 
 10. Neg_Fun_0010: Handle numeric slang with Singlish input
 
-- UI Test Cases (2)
+# UI Test Cases (2)
 1. Pos_UI_0001: Verify input clear functionality resets output field
 2. Neg_UI_0011: Verify system behavior when submitting empty input
 
@@ -258,7 +258,7 @@ Test Case ID Convention
 - Neg_UI: Negative UI test
 
 # 📄 License
-This project is created for educational purposes as part of the BSc (Hons) in Information Technology program at the University of Moratuwa.
+This project is created for educational purposes as part of the BSc (Hons) in Information Technology program at the SLIIT.
 
 # 👨‍💻 Developer Information
 - Registration Number: IT23633940
