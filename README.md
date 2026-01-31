@@ -15,18 +15,6 @@ This project fulfills the requirements for IT3040 - ITPM Assignment 1 (Year 3, S
 
  - Complete Playwright automation scripts
 
-## 📁 Project Structure
-
-IT23633940/
-├── tests/
-│   ├── negative.spec.js     # Negative functional test cases
-│   ├── positive.spec.js     # Positive functional test cases
-│   └── ui-tests.spec.js     # UI test cases
-├── playwright.config.js     # Playwright configuration
-├── package.json            # Project dependencies
-├── package-lock.json       # Lock file for dependencies
-├── IT23633940.xlsx        # Test case documentation
-└── README.md              # This file
 
 ## 🛠️ Prerequisites
 Before running the tests, ensure you have the following installed:
@@ -132,7 +120,7 @@ The HTML report is generated in the playwright-report folder.
 
 ## 📝 Test Case Details
 
-- Positive Test Cases (25)
+ # Positive Test Cases (25)
 These test cases verify that the system correctly converts valid Singlish inputs to Sinhala outputs:
 
 1. Pos_Fun_0001: Convert a simple present sentence
@@ -185,7 +173,7 @@ These test cases verify that the system correctly converts valid Singlish inputs
 
 25. Pos_Fun_0025: Convert mixed English technical terms sentence
 
-- Negative Test Cases (10)
+# Negative Test Cases (10)
 These test cases verify that the system handles invalid or edge-case inputs appropriately:
 
 1. Neg_Fun_0001: Handle mixed symbols within sentence
