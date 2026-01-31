@@ -6,6 +6,17 @@ This project contains automated test cases for the Singlish to Sinhala Translato
 ##  Assignment Requirements
 This project fulfills the requirements for IT3040 - ITPM Assignment 1 (Year 3, Semester 1) of the BSc (Hons) in Information Technology program.
 
+## Project Structure
+
+swifttranslator-tests/
+├── tests/
+│   ├── positive-functional.spec.js    
+│   ├── negative-functional.spec.js      
+│   └── ui-tests.spec.js              
+├── playwright.config.js              
+├── package.json                      
+└── playwright-report/               
+
 ## Requirements Met:
  - 25 Positive Functional Test Cases
 
