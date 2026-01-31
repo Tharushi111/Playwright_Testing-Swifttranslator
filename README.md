@@ -1,9 +1,9 @@
 # Singlish to Sinhala Translator Testing Project
 
-## 📋 Project Overview
+##  Project Overview
 This project contains automated test cases for the Singlish to Sinhala Translator website (https://www.swifttranslator.com/). The tests are designed to evaluate the system's accuracy in converting Singlish input to Sinhala output and assess the stability and usability of the user interface under various conditions.
 
-## 🎯 Assignment Requirements
+##  Assignment Requirements
 This project fulfills the requirements for IT3040 - ITPM Assignment 1 (Year 3, Semester 1) of the BSc (Hons) in Information Technology program.
 
 ## Requirements Met:
@@ -16,7 +16,7 @@ This project fulfills the requirements for IT3040 - ITPM Assignment 1 (Year 3, S
  - Complete Playwright automation scripts
 
 
-## 🛠️ Prerequisites
+##  Prerequisites
 Before running the tests, ensure you have the following installed:
 
 - Node.js (version 14 or higher)
@@ -38,7 +38,7 @@ Verify installation:
 git --version
 ```
 
-## 📥 Installation
+##  Installation
 Step 1: Clone or Download the Project
 
 
@@ -68,28 +68,28 @@ Step 3: Install Playwright Browsers
 npx playwright install chromium
 ```
 
-# 🚀 Running the Tests
+#  Running the Tests
 Option 1: Run All Tests
 
 # Run all test cases (positive, negative, and UI)
 ```bash
-npm test
+npx playwright test
 ```
 Option 2: Run Specific Test Suites
 
 # Run only positive test cases
 ```bash
-npm run test:positive
+npx playwright test positive.spec.js
 ```
 
 # Run only negative test cases
 ```bash
-npm run test:negative
+npx playwright test negative.spec.js
 ```
 
 # Run only UI test cases
 ```bash
-npm run test:ui
+npx playwright test ui-tests.spec.js
 ```
 Option 3: Run with UI Mode
 
@@ -118,7 +118,7 @@ The report includes:
 # Report Location
 The HTML report is generated in the playwright-report folder.
 
-## 📝 Test Case Details
+##  Test Case Details
 
  # Positive Test Cases (25)
 These test cases verify that the system correctly converts valid Singlish inputs to Sinhala outputs:
@@ -196,11 +196,11 @@ These test cases verify that the system handles invalid or edge-case inputs appr
 
 10. Neg_Fun_0010: Handle numeric slang with Singlish input
 
-# UI Test Cases (2)
+# UI Test Cases (1)
 1. Pos_UI_0001: Verify input clear functionality resets output field
-2. Neg_UI_0011: Verify system behavior when submitting empty input
 
-## 🔧 Configuration
+
+##  Configuration
 - Playwright Configuration
 The playwright.config.js file contains the following settings:
 
@@ -212,7 +212,7 @@ The playwright.config.js file contains the following settings:
 
 - Browsers: Chromium
 
-## ⚠️ Troubleshooting
+##  Troubleshooting
 Common Issues
 - Tests fail with timeout errors
 
@@ -247,7 +247,7 @@ npm --version
 npx playwright --version
 npx playwright install --dry-run
 
-## 📚 Additional Information
+##  Additional Information
 Test Case ID Convention
 - Pos_Fun: Positive functional test
 
@@ -257,10 +257,10 @@ Test Case ID Convention
 
 - Neg_UI: Negative UI test
 
-# 📄 License
+#  License
 This project is created for educational purposes as part of the BSc (Hons) in Information Technology program at the SLIIT.
 
-# 👨‍💻 Developer Information
+#  Developer Information
 - Registration Number: IT23633940
 
 - Module: IT3040 - IT Project Management
