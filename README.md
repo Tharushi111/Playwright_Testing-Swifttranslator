@@ -98,7 +98,7 @@ Option 3: Run with UI Mode
 npx playwright test --headed false
 ```
 
-# 📊 Test Report
+#  Test Report
 - Viewing Test Results
 After test execution, the HTML report will automatically open in your default browser. If it doesn't, you can manually open it:
 
